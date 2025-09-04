@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfólio Murilo</title>
+</head>
+
+<body>
+    <header class="container text-center">
+        <img src="img/foto_perfil.png" alt="foto_perfil" class="rounded-circle" width="150" height="150"
+            srcset="">
+        <p class="lead">Eu sou Murilo</p>
+        <h1>Estou aprendendo Programação</h1>
+        <p>Sou aluno do 7º Colégio da Polícia Militar, estou aprendendo a programar</p>
+        <p>Minhas habilidades</p>
+        <div>
+            <p class="badge bg-secondary">HTML</p>
+            <p class="badge bg-secondary">JavaScript</p>
+            <p class="badge bg-secondary">Scratch</p>
+        </div>
+    </header>
+    <main class="container mt-5">
+        <h2>Meus projetos</h2>
+        <div class="row">
+            <!-- Projeto 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/pong.png" class="card-img-top" alt="pong.png">
+                    <div class="card-body">
+                        <h5 class="card-title">Minha Biblioteca: Jogo Pong</h5>
+                        <p class="card-text">Criei uma versão do clássico jogo Pong no Scratch para um trabalho escolar. O jogo permite que dois jogadores controlem barras para rebater a bola e marcar pontos. Durante o desenvolvimento, aprendi sobre lógica de programação e adicionei sons e animações para melhorar a experiência. O maior desafio foi ajustar as colisões da bola para garantir uma boa jogabilidade.
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Projeto 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/Caixa.png" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">Caixa Misteriosa: Projeto Desenvolvido em aulda de física</h5>
+                        <p class="card-text">Este estudo explora o uso da luz UV no ensino de Física, focando no fenômeno da fluorescência. Utilizando uma caixa de madeira pintada com tinta prateada, duas lâmpadas UV e fiação adequada, o experimento demonstrou como pigmentos fluorescentes absorvem radiação UV e emitem luz visível. Os resultados confirmam conceitos de óptica e a interação entre luz e matéria de forma prática.
+</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projeto 3 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/jogos.png" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">Amistoso pela Seleção de União da Vitória contra Prudentópolis.</h5>
+                        <p class="card-text">Em 3 de setembro de 2023, tive a honra de jogar pela Seleção de União da Vitória em um amistoso contra a equipe de Prudentópolis. Essa partida foi uma oportunidade única para colocar em prática tudo o que venho aprendendo no vôlei, enfrentando uma equipe de alto nível e mostrando meu comprometimento com o esporte. Apesar da derrota por 3 a 2, o jogo foi extremamente enriquecedor, permitindo-me crescer como atleta e aprimorar minhas habilidades dentro de um ambiente competitivo e colaborativo.
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Modal 1 -->
+    <div class="modal" id="modal1" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Minha Biblioteca: Uma Webpage Personalizada</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Este projeto foi desenvolvido como parte de um trabalho escolar, onde o objetivo era criar uma versão funcional do clássico jogo de Pong utilizando a plataforma Scratch. O Pong é um dos primeiros jogos de vídeo criados e, apesar de sua simplicidade, é uma excelente maneira de aprender os conceitos fundamentais de programação, como controle de movimento, interatividade e condições de vitória/perda.</p>
+                    <p>Seus objetivos eram:
+                        Desenvolver um jogo básico de Pong com a capacidade de dois jogadores controlarem barras que rebatem uma bola, com o objetivo de marcar pontos.
+
+Explorar a programação visual e lógica através do uso de blocos no Scratch.
+
+Melhorar a interação do usuário com recursos simples, como sons, efeitos visuais e contagem de pontos.</p>
+                    <p>A suas funcionalidades são:
+                        Movimento das barras: Cada jogador controla uma barra que se move verticalmente para rebater a bola. O jogador 1 usa as setas para cima e para baixo, e o jogador 2 utiliza as teclas "W" e "S".
+
+Pontuação: Quando a bola passa por uma das barras, o outro jogador marca um ponto. A pontuação é exibida no topo da tela e o jogo reinicia automaticamente.
+
+Sons e animações: Sons de colisão e vitória foram implementados para melhorar a imersão do jogador. Também criei uma animação de vitória quando um jogador alcança a pontuação final.
+
+Interface simples e clara: A tela de jogo apresenta uma área de jogo limpa, com apenas as barras, a bola e a pontuação visível. A interface foi desenhada para garantir uma experiência simples e divertida..</p>
+                    <p>Durante o desenvolvimento do jogo, enfrentei alguns desafios, como o ajuste da física da bola para que ela se movesse de maneira realista ao colidir com as barras ou as paredes. Para resolver isso, estudei como o movimento de Pong funcionava e apliquei as condições de colisão corretamente no Scratch, ajustando a velocidade da bola conforme necessário.
+Outro desafio foi garantir que o controle de cada jogador fosse intuitivo e responsivo, o que envolveu ajustes finos nos blocos de código para garantir uma boa jogabilidade.</p>
+
+</p>Caso se interessar, clique no Link Abaixo:</p>
+<a href=https://scratch.mit.edu/projects/1022110007>Scratch Jogo</a>
+                    <img src="img/pong.png" class="img-fluid w-100"
+                        alt="Jogo Pong desenvolvido por mim">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 2 -->
+    <div class="modal" id="modal2" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Minha Biblioteca: Uma Webpage Personalizada</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Este estudo tem como objetivo investigar como a luz ultravioleta (UV) pode ser usada para enriquecer o ensino de Física, explorando tanto os princípios teóricos quanto as aplicações experimentais desse tipo de radiação. A luz UV, devido às suas propriedades únicas, oferece uma abordagem prática e visual para compreender fenômenos físicos como a fluorescência e a interação da luz com diferentes materiais. Com o uso de experimentos como este, é possível tornar o ensino de conceitos de óptica e radiação mais acessível e interessante para os estudantes.
+                    </p>
+                    <p>O experimento foi realizado utilizando uma caixa de madeira pintada com tinta prateada, duas lâmpadas de luz UV e uma fiação adequadamente montada para garantir a segurança e eficiência do processo. O objetivo era observar a interação entre a radiação UV e tintas fluorescentes aplicadas na superfície da caixa. Ao expor as tintas à luz UV, foi possível observar um fenômeno visualmente impressionante: a emissão intensa de luz visível, característica da fluorescência, quando os pigmentos presentes na tinta absorvem radiação UV e emitem energia em comprimentos de onda visíveis.</p>
+                    <p>Esse fenômeno de conversão de radiação é um exemplo claro dos processos físicos de absorção e emissão de energia, que são fundamentais para a compreensão dos princípios de óptica. A fluorescência observada no experimento demonstrou, de forma prática, como materiais podem absorver radiação em comprimentos de onda mais curtos (como o UV) e, em seguida, emitir luz em comprimentos de onda mais longos e visíveis. Esse processo, além de visualmente impactante, também ajuda a ilustrar conceitos de física moderna, como a conservação de energia e a interação entre a luz e a matéria.</p>
+                    <p>Em termos pedagógicos, o experimento confirma que a luz UV é uma ferramenta poderosa para o ensino de Física, proporcionando uma experiência prática que torna os conceitos mais tangíveis para os alunos. Ao observar diretamente o efeito da luz UV sobre os pigmentos, os estudantes podem visualizar e entender melhor fenômenos físicos que, de outra forma, seriam mais abstratos. Essa abordagem não só facilita o aprendizado, mas também desperta o interesse dos alunos pela ciência, tornando o processo de ensino mais dinâmico e envolvente.
+                    </p>
+                    <img src="img/Caixa.png" class="img-fluid w-100"
+                        alt="Imagem representativa do projeto de uma biblioteca online">
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 3 -->
+    <div class="modal" id="modal3" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Minha Biblioteca: Uma Webpage Personalizada</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>No dia 03 de setembro, tive a honra de representar a Seleção de União da Vitória em um amistoso contra a equipe de Prudentópolis. Esse jogo marcou não apenas mais uma oportunidade de demonstrar meu talento e comprometimento com o volei, mas também a chance de contribuir para o crescimento da equipe e o fortalecimento do esporte local.</p>
+                    <p>O confronto, apesar da derrota por 3 a 2, foi uma experiência enriquecedora. A partida foi marcada por momentos de grande intensidade e competitividade, onde pude enfrentar um adversário de alto nível e aplicar em campo o que venho aprendendo ao longo da minha trajetória esportiva.</p>
+                    <p>A experiência de vestir a camisa da Seleção de União da Vitória foi uma das maiores conquistas da minha carreira até agora, e estou ansioso para novas oportunidades de representar minha cidade e continuar me desenvolvendo no futebol.</p>
+                    <img src="img/jogos.png" alt="Projeto 3" class="img-fluid w-100">
+                </div>
+                <div class="modal-footer">
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="container py-5">
+        <h2>Entre em contato</h2>
+        <div>
+            <a>(42) 98418-1240</a>
+        </div>
+        <p class="my-5 text-center">© Copyright 2025. Produzido por Murilo Makiolke</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
